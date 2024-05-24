@@ -12,8 +12,10 @@ class UserTest {
     @Test
     void passwordTest(){
         User user = new User();
-        user.initPassword();
+        user.initPassword(new CorrectFixedPasswordGenerator());
 
         assertThat(user.getPassword()).isNotNull();
     }
+
+
 }
