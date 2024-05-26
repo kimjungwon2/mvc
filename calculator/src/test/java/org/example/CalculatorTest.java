@@ -12,7 +12,7 @@ class CalculatorTest {
     void addtionTest(){
         int result = Calculator.caluclate(1, "+", 2);
 
-        assertThat(result).isEqualsTo(3);
+        assertThat(result).isEqualTo(3);
 
     }
 
