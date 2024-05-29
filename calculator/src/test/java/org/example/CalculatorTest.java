@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.calculate.PositiveNumber;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -14,30 +15,13 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 class CalculatorTest {
 
-    @DisplayName("덧셈 연산을 수행한다.")
-    @Test
-    void addtionTest(){
-        int result = Calculator.caluclate(1, "+", 2);
-
-        assertThat(result).isEqualTo(3);
-
-    }
-
-    @DisplayName("뺄셈 연산을 수행한다.")
-    @Test
-    void subtractionTest(){
-        int result = Calculator.caluclate(1, "-", 2);
-
-        assertThat(result).isEqualTo(-1);
-
-    }
 
     @DisplayName("덧셈 연산을 수행한다.")
     @ParameterizedTest
     @MethodSource("formulaAndResult")
     void calculateTest(int operand1, String operator, int operand2, int result){
       //given
-        int calculateResult = Calculator.caluclate(operand1,operator,operand2);
+        int calculateResult = Calculator.caluclate(new PositiveNumber(operand1),operator,new PositiveNumber(operand2));
 
       //when
         assertThat(calculateResult).isEqualTo(result);
@@ -49,9 +33,9 @@ class CalculatorTest {
     @Test
     void calculateExceptionTest(){
       //given
-        assertThatCode(()-> Calculator.caluclate(10,"/",0))
+        assertThatCode(()-> Calculator.caluclate(new PositiveNumber(10),"/",new PositiveNumber(0)))
                 .isInstanceOf(IllegalArgumentException.class)
-                .hasMessage("0으로는 나눌 수 없습니다.");
+                .hasMessage("0또는 음수를 전달할 수 없습니다.");
     }
 
     private static Stream<Arguments> formulaAndResult(){
