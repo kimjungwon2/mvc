@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.stream.Stream;
 
@@ -34,6 +35,15 @@ class CalculatorTest {
     void calculateExceptionTest(){
       //given
         assertThatCode(()-> Calculator.caluclate(new PositiveNumber(10),"/",new PositiveNumber(0)))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("0또는 음수를 전달할 수 없습니다.");
+    }
+
+    @ParameterizedTest
+    @ValueSource(ints={0,-1})
+    void createTest(int value){
+        //given
+        assertThatCode(()-> Calculator.caluclate(new PositiveNumber(10),"/",new PositiveNumber(value)))
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("0또는 음수를 전달할 수 없습니다.");
     }
