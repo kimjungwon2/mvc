@@ -32,4 +32,8 @@ public class MenuItem {
     public int hashCode() {
         return Objects.hash(name, price);
     }
+
+    public boolean matches(String name) {
+        return this.name.equals(name);
+    }
 }
