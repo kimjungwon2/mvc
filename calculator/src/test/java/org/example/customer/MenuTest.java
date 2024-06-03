@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.AssertionsForClassTypes.assertThatCode;
 
 public class MenuTest {
 
@@ -21,5 +22,17 @@ public class MenuTest {
 
       //then
         assertThat(menuItem).isEqualTo(new MenuItem("돈까스", 5000));
+    }
+
+    @DisplayName("메뉴판에 없는 메뉴를 선택할 시 예외를 반환한다.")
+    @Test
+    void chooseTest2(){
+        //given
+        Menu menu = new Menu(List.of(new MenuItem("돈까스", 5000),new MenuItem("냉면", 7000)));
+
+        //then
+        assertThatCode(()->menu.choose("통닭"))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("잘못된 메뉴 이름입니다.");
     }
 }
