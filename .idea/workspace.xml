@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf38259f-3246-4e52-8684-6ac308d6f5c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/calculator/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="bf38259f-3246-4e52-8684-6ac308d6f5c0" name="Changes" comment="FEAT: 고객이 주문을 한다.">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +38,150 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/calculator" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3ee98360-0d06-4aca-b0ac-b36b4a92c5df" />
+        <option name="url" value="https://github.com/kimjungwon2/mvc.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2gx5lHZlqkSzR67Vodfe9k2pAsR" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.delivery" />
+      <recent name="org.example.customer" />
+      <recent name="org.example.grade" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomerTest.orderTest">
+    <configuration name="CookTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.delivery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.customer" />
+      <option name="MAIN_CLASS_NAME" value="org.example.customer.CookTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CookingTest.makeCookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.customer" />
+      <option name="MAIN_CLASS_NAME" value="org.example.customer.CookingTest" />
+      <option name="METHOD_NAME" value="makeCookTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.orderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.customer" />
+      <option name="MAIN_CLASS_NAME" value="org.example.customer.CustomerTest" />
+      <option name="METHOD_NAME" value="orderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuTest.chooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.customer" />
+      <option name="MAIN_CLASS_NAME" value="org.example.customer.MenuTest" />
+      <option name="METHOD_NAME" value="chooseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuTest.chooseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.customer" />
+      <option name="MAIN_CLASS_NAME" value="org.example.customer.MenuTest" />
+      <option name="METHOD_NAME" value="chooseTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerTest.orderTest" />
+        <item itemvalue="JUnit.MenuTest.chooseTest2" />
+        <item itemvalue="JUnit.MenuTest.chooseTest" />
+        <item itemvalue="JUnit.CookingTest.makeCookTest" />
+        <item itemvalue="JUnit.CookTest.createTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,8 +190,254 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716626540967</updated>
-      <workItem from="1716626542448" duration="105000" />
+      <workItem from="1716626542448" duration="637000" />
+      <workItem from="1716642804407" duration="253000" />
+      <workItem from="1716715085438" duration="753000" />
+      <workItem from="1716716096134" duration="46000" />
+      <workItem from="1716717186263" duration="124000" />
+      <workItem from="1716798326213" duration="1063000" />
+      <workItem from="1716819816362" duration="814000" />
+      <workItem from="1716830708755" duration="744000" />
+      <workItem from="1716908642019" duration="1696000" />
+      <workItem from="1716999762206" duration="1503000" />
+      <workItem from="1717074854051" duration="13000" />
+      <workItem from="1717083789030" duration="1778000" />
+      <workItem from="1717085830603" duration="45000" />
+      <workItem from="1717169204480" duration="872000" />
+      <workItem from="1717170696341" duration="1416000" />
+      <workItem from="1717215679216" duration="625000" />
+      <workItem from="1717217831964" duration="266000" />
+      <workItem from="1717236026765" duration="1791000" />
+      <workItem from="1717254639366" duration="323000" />
+      <workItem from="1717304828717" duration="3519000" />
+      <workItem from="1717406735105" duration="1173000" />
+      <workItem from="1717419523200" duration="1235000" />
     </task>
+    <task id="LOCAL-00001" summary="INIT: OOP 새프로젝트 추가.">
+      <created>1716626781686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716626781686</updated>
+    </task>
+    <task id="LOCAL-00002" summary="INIT: OOP calculator 새프로젝트 추가.">
+      <created>1716626939808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716626939808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FIX: isEqualTo 수정.">
+      <created>1716717282693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716717282693</updated>
+    </task>
+    <task id="LOCAL-00004" summary="FEAT: 계산기 계산 리팩토링.">
+      <created>1716798463323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716798463323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="FEAT: 계산기 뺄셈 추가.">
+      <created>1716798631573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716798631573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TEST: ParameterizedTest, MethodSource를 활용한 테스트">
+      <created>1716798991888</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716798991888</updated>
+    </task>
+    <task id="LOCAL-00007" summary="FEAT: 여러 개의 연산 계산기.">
+      <created>1716799010643</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716799010643</updated>
+    </task>
+    <task id="LOCAL-00008" summary="REFACOTR: ENUM으로 변환.">
+      <created>1716831307754</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716831307754</updated>
+    </task>
+    <task id="LOCAL-00009" summary="REFACOTR: 추상화를 통한 리팩토링.">
+      <created>1716909939750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716909939750</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TEST: 나눗셈에서 0으로 나눌 시 예외처리.">
+      <created>1716910188150</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716910188150</updated>
+    </task>
+    <task id="LOCAL-00011" summary="FEAT: 계산기 양수만 올 수 있게끔 조정.">
+      <created>1717001027215</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717001027215</updated>
+    </task>
+    <task id="LOCAL-00012" summary="TEST: 나눗셈 음수 테스트.">
+      <created>1717001147408</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717001147408</updated>
+    </task>
+    <task id="LOCAL-00013" summary="FEAT: 과목 생성.">
+      <created>1717084418773</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717084418773</updated>
+    </task>
+    <task id="LOCAL-00014" summary="FEAT: OOP를 활용한 평균 학점 계산기.">
+      <created>1717085567058</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717085567058</updated>
+    </task>
+    <task id="LOCAL-00015" summary="FEAT: 응집도 높게 변환.">
+      <created>1717236423597</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717236423597</updated>
+    </task>
+    <task id="LOCAL-00016" summary="REFACTOR: 책임 분리.">
+      <created>1717237387902</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717237387902</updated>
+    </task>
+    <task id="LOCAL-00017" summary="FEAT: multiplyCreditAndCourseGrade Stream 변환.">
+      <created>1717237685199</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717237685199</updated>
+    </task>
+    <task id="LOCAL-00018" summary="FEAT: Cook, MenuItem 도메인 생성. (TDD)">
+      <created>1717305819108</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717305819108</updated>
+    </task>
+    <task id="LOCAL-00019" summary="FEAT: 음식 생성 (TDD)">
+      <created>1717306462270</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717306462270</updated>
+    </task>
+    <task id="LOCAL-00020" summary="FEAT: 요리사 객체 생성. (TDD)">
+      <created>1717306648869</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717306648869</updated>
+    </task>
+    <task id="LOCAL-00021" summary="FEAT: 메뉴 이름에 해당하는 메뉴를 반환. (TDD)">
+      <created>1717307451239</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1717307451239</updated>
+    </task>
+    <task id="LOCAL-00022" summary="FEAT: MenuItem의 choose 구현. (TDD)">
+      <created>1717307592733</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1717307592733</updated>
+    </task>
+    <task id="LOCAL-00023" summary="FEAT: 고객이 주문을 한다.">
+      <created>1717407349252</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717407349252</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="INIT: OOP 새프로젝트 추가." />
+    <MESSAGE value="INIT: OOP calculator 새프로젝트 추가." />
+    <MESSAGE value="FIX: isEqualTo 수정." />
+    <MESSAGE value="FEAT: 계산기 계산 리팩토링." />
+    <MESSAGE value="FEAT: 계산기 뺄셈 추가." />
+    <MESSAGE value="TEST: ParameterizedTest, MethodSource를 활용한 테스트" />
+    <MESSAGE value="FEAT: 여러 개의 연산 계산기." />
+    <MESSAGE value="REFACOTR: ENUM으로 변환." />
+    <MESSAGE value="REFACOTR: 추상화를 통한 리팩토링." />
+    <MESSAGE value="TEST: 나눗셈에서 0으로 나눌 시 예외처리." />
+    <MESSAGE value="FEAT: 계산기 양수만 올 수 있게끔 조정." />
+    <MESSAGE value="TEST: 나눗셈 음수 테스트." />
+    <MESSAGE value="FEAT: 과목 생성." />
+    <MESSAGE value="FEAT: OOP를 활용한 평균 학점 계산기." />
+    <MESSAGE value="FEAT: 응집도 높게 변환." />
+    <MESSAGE value="REFACTOR: 책임 분리." />
+    <MESSAGE value="FEAT: multiplyCreditAndCourseGrade Stream 변환." />
+    <MESSAGE value="FEAT: Cook, MenuItem 도메인 생성. (TDD)" />
+    <MESSAGE value="FEAT: 음식 생성 (TDD)" />
+    <MESSAGE value="FEAT: 요리사 객체 생성. (TDD)" />
+    <MESSAGE value="FEAT: 메뉴 이름에 해당하는 메뉴를 반환. (TDD)" />
+    <MESSAGE value="FEAT: MenuItem의 choose 구현. (TDD)" />
+    <MESSAGE value="FEAT: 고객이 주문을 한다." />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT: 고객이 주문을 한다." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/calculator/src/main/java/org/example/calculate/DivisionOperator.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/calculator/src/main/java/org/example/grade/GradeCalculator.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/calculator/src/main/java/org/example/grade/GradeCalculator.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/calculator/src/main/java/org/example/grade/Course.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
