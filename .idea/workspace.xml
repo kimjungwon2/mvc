@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf38259f-3246-4e52-8684-6ac308d6f5c0" name="Changes" comment="FEAT: 고객이 주문을 한다.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf38259f-3246-4e52-8684-6ac308d6f5c0" name="Changes" comment="INIT: WAS 응용 프로그램 만들기" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,21 +58,23 @@
     </option>
   </component>
   <component name="ProjectId" id="2gx5lHZlqkSzR67Vodfe9k2pAsR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/mac20010/Users/mvc/was-practice/was-practice",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.delivery" />
@@ -212,6 +209,7 @@
       <workItem from="1717304828717" duration="3519000" />
       <workItem from="1717406735105" duration="1173000" />
       <workItem from="1717419523200" duration="1235000" />
+      <workItem from="1719321438316" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="INIT: OOP 새프로젝트 추가.">
       <created>1716626781686</created>
@@ -374,7 +372,35 @@
       <option name="project" value="LOCAL" />
       <updated>1717407349252</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="INIT: WAS 응용 프로그램 만들기">
+      <created>1719321516586</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719321516586</updated>
+    </task>
+    <task id="LOCAL-00025" summary="INIT: WAS 응용 프로그램 만들기">
+      <created>1719321523696</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719321523696</updated>
+    </task>
+    <task id="LOCAL-00026" summary="INIT: WAS 응용 프로그램 만들기">
+      <created>1719321584069</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719321584069</updated>
+    </task>
+    <task id="LOCAL-00027" summary="INIT: WAS 응용 프로그램 만들기">
+      <created>1719321618583</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719321618583</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,6 +415,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/was-practice/was-practice" />
+    </ignored-roots>
     <MESSAGE value="INIT: OOP 새프로젝트 추가." />
     <MESSAGE value="INIT: OOP calculator 새프로젝트 추가." />
     <MESSAGE value="FIX: isEqualTo 수정." />
@@ -412,7 +441,8 @@
     <MESSAGE value="FEAT: 메뉴 이름에 해당하는 메뉴를 반환. (TDD)" />
     <MESSAGE value="FEAT: MenuItem의 choose 구현. (TDD)" />
     <MESSAGE value="FEAT: 고객이 주문을 한다." />
-    <option name="LAST_COMMIT_MESSAGE" value="FEAT: 고객이 주문을 한다." />
+    <MESSAGE value="INIT: WAS 응용 프로그램 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="INIT: WAS 응용 프로그램 만들기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
