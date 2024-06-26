@@ -2,16 +2,19 @@ package org.example;
 
 
 import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-@Slf4j
 @Getter
 public class CustomWebApplicationServer {
     private final int port;
+
+    private static final Logger logger = LoggerFactory.getLogger(CustomWebApplicationServer.class);
 
     public CustomWebApplicationServer(int port) {
         this.port = port;
@@ -19,12 +22,12 @@ public class CustomWebApplicationServer {
 
     public void start(){
         try(ServerSocket serverSocket = new ServerSocket(port)){
-            log.info("[CustomWebApplicationServer] started {} port.", port);
+            logger.info("[CustomWebApplicationServer] started {} port.", port);
             Socket clientSocket;
-            log.info("[CustomWebApplicationServer] waiting for client.");
+            logger.info("[CustomWebApplicationServer] waiting for client.");
 
             while((clientSocket = serverSocket.accept()) !=null){
-                log.info("[CustomWebApplicationServer] client connected!");
+                logger.info("[CustomWebApplicationServer] client connected!");
 
             }
 
