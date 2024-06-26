@@ -20,7 +20,7 @@ public class CustomWebApplicationServer {
         this.port = port;
     }
 
-    public void main(){
+    public void start(){
         try(ServerSocket serverSocket = new ServerSocket(port)){
             logger.debug("[CustomWebApplicationServer] started {} port.", port);
             Socket clientSocket;
@@ -28,6 +28,7 @@ public class CustomWebApplicationServer {
 
             while((clientSocket = serverSocket.accept()) !=null){
                 logger.debug("[CustomWebApplicationServer] client connected!");
+
             }
 
         } catch (IOException e) {
