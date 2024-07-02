@@ -35,7 +35,15 @@ public class CustomWebApplicationServer {
                     DataOutputStream dos = new DataOutputStream(out);
 
                     HttpRequest httpRequest = new HttpRequest(br);
+                    if(httpRequest.isGetRequest() && httpRequest.matchPath("/calculate")){
+                        QueryStrings queryStrings = httpRequest.getQueryStrings();
 
+                        int operand1 = Integer.parseInt(queryStrings.getValue("operand1"));
+                        String operator = queryStrings.getValue("operator");
+                        int operand2 = Integer.parseInt(queryStrings.getValue("operand2"));
+
+
+                    }
                 }
 
             }

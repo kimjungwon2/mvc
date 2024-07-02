@@ -11,5 +11,15 @@ public class HttpRequest {
     }
 
 
+    public QueryStrings getQueryStrings() {
+        return requestLine.getQueryStrings();
+    }
 
+    public boolean isGetRequest() {
+        return requestLine.isGetRequest();
+    }
+
+    public boolean matchPath(String requestPath) {
+        return requestLine.matchPass(requestPath);
+    }
 }
