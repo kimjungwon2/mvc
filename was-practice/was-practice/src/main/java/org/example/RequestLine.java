@@ -49,6 +49,6 @@ public class RequestLine {
     }
 
     public QueryStrings getQueryStrings() {
-
+        return this.queryStrings;
     }
 }
