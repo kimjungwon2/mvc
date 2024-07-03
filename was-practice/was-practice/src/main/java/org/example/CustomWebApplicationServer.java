@@ -2,6 +2,8 @@ package org.example;
 
 
 import lombok.Getter;
+import org.calculate.Calculator;
+import org.calculate.PositiveNumber;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -42,7 +44,7 @@ public class CustomWebApplicationServer {
                         String operator = queryStrings.getValue("operator");
                         int operand2 = Integer.parseInt(queryStrings.getValue("operand2"));
 
-
+                        int result = Calculator.calculate(new PositiveNumber(operand1), operator, new PositiveNumber(operand2));
                     }
                 }
 
