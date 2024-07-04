@@ -31,6 +31,7 @@ public class CustomWebApplicationServer {
                 /**
                  * 사용자 요청을 메인 Thread가 처리
                  * **/
+                new Thread(new ClientRequestHandler(clientSocket)).start();
 
 
             }
