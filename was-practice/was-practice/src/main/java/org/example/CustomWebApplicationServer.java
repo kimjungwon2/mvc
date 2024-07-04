@@ -9,11 +9,15 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 
 @Getter
 public class CustomWebApplicationServer {
     private final int port;
+
+    private final ExecutorService executorService= Executors.newFixedThreadPool(10);
 
     public CustomWebApplicationServer(int port) {
         this.port = port;
@@ -31,9 +35,8 @@ public class CustomWebApplicationServer {
                 /**
                  * 사용자 요청을 메인 Thread가 처리
                  * **/
-                new Thread(new ClientRequestHandler(clientSocket)).start();
 
-
+                executorService.execute(new ClientRequestHandler(clientSocket));
             }
 
         } catch (IOException e) {
