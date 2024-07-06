@@ -8,7 +8,6 @@
         <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/calculator" />
         <option name="gradleHome" value="C:/gradle-8.2.1" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/calculator" />

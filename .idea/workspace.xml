@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf38259f-3246-4e52-8684-6ac308d6f5c0" name="Changes" comment="INIT: WAS 응용 프로그램 만들기" />
+    <list default="true" id="bf38259f-3246-4e52-8684-6ac308d6f5c0" name="Changes" comment="INIT: WAS 응용 프로그램 만들기">
+      <change afterPath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,10 +73,10 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "D:/mac20010/Users/mvc/was-practice/was-practice",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -210,6 +214,8 @@
       <workItem from="1717406735105" duration="1173000" />
       <workItem from="1717419523200" duration="1235000" />
       <workItem from="1719321438316" duration="286000" />
+      <workItem from="1720232838792" duration="499000" />
+      <workItem from="1720233534626" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="INIT: OOP 새프로젝트 추가.">
       <created>1716626781686</created>
