@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/calculator" />
     <file type="web" url="file://$PROJECT_DIR$/oop-practice" />
     <file type="web" url="file://$PROJECT_DIR$/tomcat" />
+    <file type="web" url="file://$PROJECT_DIR$/was-practice" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
