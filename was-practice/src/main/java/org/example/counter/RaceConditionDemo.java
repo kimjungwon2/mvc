@@ -1,7 +1,5 @@
 package org.example.counter;
 
-import org.example.Counter;
-
 public class RaceConditionDemo {
     public static void main(String[] args) {
         Counter counter = new Counter();

@@ -4,42 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf38259f-3246-4e52-8684-6ac308d6f5c0" name="Changes" comment="FEAT: CGI 프로그램 구현.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="bf38259f-3246-4e52-8684-6ac308d6f5c0" name="Changes" comment="FEAT: 싱글톤 객체에서 Stateful 설계.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/http-client.env.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/calculate/AdditionOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/calculate/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/calculate/DivisionOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/calculate/MultiplicateOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/calculate/NewArithmeticOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/calculate/PositiveNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/calculate/SubtractionOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/ClientRequestHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/CustomWebApplicationServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/HttpRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/HttpResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/QueryString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/QueryStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/RequestLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/main/java/org/example/counter/Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/test/java/org/example/QueryStringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/test/java/org/example/QueryStringsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/src/test/java/org/example/RequestLineTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/was-practice/test.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/was-practice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/counter/Counter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +32,22 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/was-practice">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="was-practice" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="was-practice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -107,7 +89,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/mac20010/Users/mvc/was-practice/build.gradle",
+    "last_opened_file_path": "D:/mac20010/Users/mvc/was-practice",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -127,19 +109,16 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest.orderTest">
-    <configuration name="CookTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator.test" />
+  <component name="RunManager" selected="Application.RaceConditionDemo">
+    <configuration name="RaceConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.counter.RaceConditionDemo" />
+      <module name="was-practice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.delivery.*" />
+          <option name="PATTERN" value="org.example.counter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.customer" />
-      <option name="MAIN_CLASS_NAME" value="org.example.customer.CookTest" />
-      <option name="METHOD_NAME" value="createTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RaceConditionDemo" />
         <item itemvalue="JUnit.CustomerTest.orderTest" />
         <item itemvalue="JUnit.MenuTest.chooseTest2" />
         <item itemvalue="JUnit.MenuTest.chooseTest" />
         <item itemvalue="JUnit.CookingTest.makeCookTest" />
-        <item itemvalue="JUnit.CookTest.createTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +231,8 @@
       <workItem from="1720232838792" duration="499000" />
       <workItem from="1720233534626" duration="496000" />
       <workItem from="1720234061319" duration="206000" />
-      <workItem from="1720339020331" duration="266000" />
+      <workItem from="1720339020331" duration="1106000" />
+      <workItem from="1720365448049" duration="183000" />
     </task>
     <task id="LOCAL-00001" summary="INIT: OOP 새프로젝트 추가.">
       <created>1716626781686</created>
@@ -450,7 +430,28 @@
       <option name="project" value="LOCAL" />
       <updated>1720233948649</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="FEAT: WAS - PRACTICE 초기화.">
+      <created>1720339326026</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1720339326026</updated>
+    </task>
+    <task id="LOCAL-00030" summary="FEAT: WAS - PRACTICE 초기화.">
+      <created>1720339365542</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720339365542</updated>
+    </task>
+    <task id="LOCAL-00031" summary="FEAT: 싱글톤 객체에서 Stateful 설계.">
+      <created>1720339504638</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1720339504638</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,8 +469,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/was-practice/was-practice" />
     </ignored-roots>
-    <MESSAGE value="INIT: OOP 새프로젝트 추가." />
-    <MESSAGE value="INIT: OOP calculator 새프로젝트 추가." />
     <MESSAGE value="FIX: isEqualTo 수정." />
     <MESSAGE value="FEAT: 계산기 계산 리팩토링." />
     <MESSAGE value="FEAT: 계산기 뺄셈 추가." />
@@ -493,7 +492,9 @@
     <MESSAGE value="FEAT: 고객이 주문을 한다." />
     <MESSAGE value="INIT: WAS 응용 프로그램 만들기" />
     <MESSAGE value="FEAT: CGI 프로그램 구현." />
-    <option name="LAST_COMMIT_MESSAGE" value="FEAT: CGI 프로그램 구현." />
+    <MESSAGE value="FEAT: WAS - PRACTICE 초기화." />
+    <MESSAGE value="FEAT: 싱글톤 객체에서 Stateful 설계." />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT: 싱글톤 객체에서 Stateful 설계." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
