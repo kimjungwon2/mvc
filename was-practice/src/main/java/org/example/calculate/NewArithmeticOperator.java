@@ -1,4 +1,4 @@
-package org.calculate;
+package org.example.calculate;
 
 public interface NewArithmeticOperator {
     boolean supports(String operator);

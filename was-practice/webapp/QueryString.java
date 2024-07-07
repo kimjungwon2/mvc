@@ -1,4 +1,4 @@
-package org.example;
+package org.webapp;
 
 public class QueryString {
     private final String key;

@@ -1,4 +1,4 @@
-package org.example.counter;
+package org.webapp.counter;
 
 
 public class Counter implements Runnable{

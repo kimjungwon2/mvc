@@ -1,4 +1,4 @@
-package org.example;
+package org.webapp;
 
 import lombok.extern.slf4j.Slf4j;
 

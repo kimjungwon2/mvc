@@ -1,4 +1,4 @@
-package org.example;
+package org.webapp;
 
 import java.util.Objects;
 
