@@ -7,15 +7,17 @@ import org.example.calculate.PositiveNumber;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 @Slf4j
 @WebServlet("/calculate")
-public class CalculateServlet extends GenericServlet {
-
+public class CalculateServlet extends HttpServlet {
     @Override
-    public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.info("service");
         int operand1 = Integer.parseInt(request.getParameter("operand1"));
         String operator = request.getParameter("operator");
@@ -26,5 +28,4 @@ public class CalculateServlet extends GenericServlet {
         PrintWriter writer = response.getWriter();
         writer.println(result);
     }
-
 }
