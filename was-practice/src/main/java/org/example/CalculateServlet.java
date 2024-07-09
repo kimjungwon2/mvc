@@ -14,15 +14,18 @@ import java.io.PrintWriter;
 @WebServlet("/calculate")
 public class CalculateServlet implements Servlet {
 
+    private ServletConfig servletConfig;
+
 
     @Override
-    public void init(ServletConfig config) throws ServletException {
+    public void init(ServletConfig servletConfig) throws ServletException {
         log.info("init");
+        this.servletConfig = servletConfig;
     }
 
     @Override
     public ServletConfig getServletConfig() {
-        return null;
+        return this.servletConfig;
     }
 
     @Override
