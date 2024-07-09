@@ -12,21 +12,7 @@ import java.io.PrintWriter;
 
 @Slf4j
 @WebServlet("/calculate")
-public class CalculateServlet implements Servlet {
-
-    private ServletConfig servletConfig;
-
-
-    @Override
-    public void init(ServletConfig servletConfig) throws ServletException {
-        log.info("init");
-        this.servletConfig = servletConfig;
-    }
-
-    @Override
-    public ServletConfig getServletConfig() {
-        return this.servletConfig;
-    }
+public class CalculateServlet extends GenericServlet {
 
     @Override
     public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
@@ -41,13 +27,4 @@ public class CalculateServlet implements Servlet {
         writer.println(result);
     }
 
-    @Override
-    public String getServletInfo() {
-        return null;
-    }
-
-    @Override
-    public void destroy() {
-
-    }
 }
