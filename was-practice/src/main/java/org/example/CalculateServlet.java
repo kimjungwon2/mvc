@@ -28,4 +28,6 @@ public class CalculateServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
         writer.println(result);
     }
+
+
 }
